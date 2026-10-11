@@ -17,17 +17,26 @@ A command-line task manager built with Python and Supabase. You can add, list, c
 ```
 
 3. Create a `.env` file in the project folder:
+
+```
 SUPABASE_URL=your-project-url
 SUPABASE_KEY=your-publishable-key
+```
 
 4. Create a virtual environment and install the packages:
+
+```
 python -m venv venv
 venv\Scripts\activate
 pip install supabase python-dotenv
+```
 
 ## Run
+
+```
 venv\Scripts\activate
 python main.py
+```
 
 ## What I learned
 
